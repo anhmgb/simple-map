@@ -2,22 +2,113 @@
   "scenes": [
     {
       "id": 0,
-      "imageUrl": "/images/center.jpeg",
+      "imageUrl": "/images/pos0_center.jpeg",
       "navigations": [
         {
           "bottom": 10,
           "left": 163,
-          "goto": 1
+          "goto": 5
         },
         {
           "bottom": 10,
           "left": 637,
-          "goto": 2
+          "goto": 1
         },
         {
           "bottom": 10,
           "left": 1065,
+          "goto": 2
+        }
+      ] 
+    },
+    {
+      "id": 1,
+      "imageUrl": "/images/pos1_house.jpeg",
+      "navigations": [
+        {
+          "bottom": 10,
+          "left": 244,
+          "goto": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "imageUrl": "/images/pos2_C.jpeg",
+      "navigations": [
+        {
+          "bottom": 10,
+          "left": 375,
+          "goto": 0
+        },
+        {
+          "bottom": 10,
+          "left": 870,
           "goto": 3
+        },
+        {
+          "bottom": 10,
+          "left": 1145,
+          "goto": 4
+        }
+      ] 
+    },
+    {
+      "id": 3,
+      "imageUrl": "/images/pos3_B.jpeg",
+      "navigations": [
+        {
+          "bottom": 10,
+          "left": 80,
+          "goto": 4
+        },
+        {
+          "bottom": 10,
+          "left": 610,
+          "goto": 2
+        }
+      ] 
+    },
+    {
+      "id": 4,
+      "imageUrl": "/images/pos4_top.jpeg",
+      "navigations": [
+        {
+          "bottom": 45,
+          "left": 368,
+          "goto": 2
+        },
+        {
+          "bottom": 45,
+          "left": 645,
+          "goto": 3
+        }
+      ] 
+    },
+    {
+      "id": 5,
+      "imageUrl": "/images/pos5_center_back.jpeg",
+      "navigations": [
+        {
+          "bottom": 10,
+          "left": 215,
+          "goto": 6
+        },
+        {
+          "bottom": 10,
+          "left": 990,
+          "goto": 0
+        }
+      ] 
+    },
+    {
+      "id": 6,
+      "imageUrl": "/images/pos6_start.jpeg",
+      "navigations": [
+        {
+          "bottom": 10,
+          "left": 1025,
+          "goto": 5
         }
       ] 
     }

@@ -4,6 +4,7 @@ export const ScenesStyled = styled.div`
   overflow: scroll;
   position: relative;
   width: 100%;
+  user-select: none;
 `
 
 export const StyledNavigate = styled.div`

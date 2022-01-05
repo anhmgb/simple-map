@@ -6,14 +6,15 @@ import scenesJSON from '../../scenes.json';
 const Scenes = () => {
   const [currentPosition, setCurrentPosition] = useState(0);
   const { scenes } = scenesJSON;
-  console.log(scenes);
 
   return (
     <ScenesStyled>
       <img src={scenes[currentPosition].imageUrl} alt="center_img" />
       {
-        scenes[currentPosition].navigations.map((navigation) => (
-          <Navigation 
+        scenes[currentPosition].navigations.map((navigation, index) => (
+          <Navigation
+            onClick={() => setCurrentPosition(navigation.goto)}
+            key={index}
             left={navigation.left}
             bottom={navigation.bottom}
           />
