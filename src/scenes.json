@@ -1,0 +1,25 @@
+{
+  "scenes": [
+    {
+      "id": 0,
+      "imageUrl": "/images/center.jpeg",
+      "navigations": [
+        {
+          "bottom": 10,
+          "left": 163,
+          "goto": 1
+        },
+        {
+          "bottom": 10,
+          "left": 637,
+          "goto": 2
+        },
+        {
+          "bottom": 10,
+          "left": 1065,
+          "goto": 3
+        }
+      ] 
+    }
+  ]
+}

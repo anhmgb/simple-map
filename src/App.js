@@ -1,13 +1,12 @@
 import './App.css';
-import { Button } from 'antd';
+import Scenes from './containers/scenes/Scenes';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        React
-        <Button type="primary">Button</Button>
-      </header>
+      <div className="container">
+        <Scenes />
+      </div>
     </div>
   );
 }
