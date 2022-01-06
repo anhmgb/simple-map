@@ -7,9 +7,8 @@ export const StyledNavigate = styled.div`
   bottom: ${props => props.bottom}px;
   left: ${props => props.left}px;
   user-select: none;
-
+ 
   &:hover {
     cursor: pointer;
-    transform: scale(1.2);
   }
 `
